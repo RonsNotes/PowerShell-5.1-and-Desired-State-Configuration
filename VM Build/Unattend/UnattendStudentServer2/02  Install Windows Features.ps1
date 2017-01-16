@@ -1,1 +1,0 @@
-﻿Install-WindowsFeature Application-server, Desktop-experience, net-framework-core -Source d:\ -restart 
