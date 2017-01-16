@@ -1,11 +1,4 @@
-﻿<#
- Uses functions to run tests. Uses helper function to Start-CountdownToExit to exit if failure. 
- 9/8/2016
- Ron Davis
- BlueBuffaloPress
-#>
-
-Function Main
+﻿Function Main
 {
 Restart-AsAdmin
 Clear-Host
