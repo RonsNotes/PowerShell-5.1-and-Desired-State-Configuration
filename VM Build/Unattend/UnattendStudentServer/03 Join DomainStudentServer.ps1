@@ -1,0 +1,1 @@
+﻿Add-Computer -ComputerName StudentServer -DomainName Bluebuffalo.Training.local -Credential bluebuffalo\administrator -Restart
