@@ -6,7 +6,7 @@ If (!( $isAdmin )) {
 	exit
 }
 
-#Add external Switch to the StudentServer
+#Add external Switch to the StudentDC
 $MyExternalSwitch = Get-VMSwitch -SwitchType External
 
-Add-VMNetworkAdapter -VMName StudentServer -Name Internet -SwitchName $MyExternalSwitch.Name
+Add-VMNetworkAdapter -VMName StudentDC -Name Internet -SwitchName $MyExternalSwitch.Name
