@@ -7,8 +7,8 @@ If (!( $isAdmin )) {
 
 
 Install-windowsfeature -name AD-Domain-Services -IncludeManagementTools
-$domain_Name = "bluebuffalo.training.local"
+$domain_Name = "RonsNotes.training.local"
 $secure_string_pwd = ConvertTo-SecureString "Passw0rd" -asplaintext -Force
-Install-ADDSForest -DomainName $domain_Name -SkipPreChecks -InstallDns:$true -DomainNetbiosName BlueBuffalo -SafeModeAdministratorPassword $secure_string_pwd -Force
+Install-ADDSForest -DomainName $domain_Name -SkipPreChecks -InstallDns:$true -DomainNetbiosName RonsNotes -SafeModeAdministratorPassword $secure_string_pwd -Force
 Set-NetFirewallProfile -Profile domain,Public,Private -Enabled False 
 
