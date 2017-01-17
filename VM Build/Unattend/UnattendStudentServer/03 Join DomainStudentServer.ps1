@@ -1,1 +1,1 @@
-﻿Add-Computer -ComputerName StudentServer -DomainName Bluebuffalo.Training.local -Credential bluebuffalo\administrator -Restart
+﻿Add-Computer -ComputerName StudentServer -DomainName RonsNotes.Training.Local -Credential RonsNotes\Administrator -Restart
