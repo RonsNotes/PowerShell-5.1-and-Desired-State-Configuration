@@ -4,5 +4,5 @@ If (!( $isAdmin )) {
 	Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs 
 	exit
 }
-Rename-Computer -NewName Studentserver 
+Rename-Computer -NewName StudentServer 
 Stop-Computer 
