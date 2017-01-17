@@ -1,0 +1,5 @@
+﻿configuration MyConfig
+{
+
+}
+MyConfig
