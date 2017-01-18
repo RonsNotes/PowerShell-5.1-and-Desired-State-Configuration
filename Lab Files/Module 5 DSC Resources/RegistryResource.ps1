@@ -5,7 +5,7 @@
  Node StudentServer2{
  Registry RegistryExample {
 
-   Key = "HKEY_Local_Machine\SOFTWARE\BlueBuffaloPress"
+   Key = "HKEY_Local_Machine\SOFTWARE\RonsNotes"
    ValueName = "JustADemo"
    ValueData = "0x01"
    ValueType = "Dword"
