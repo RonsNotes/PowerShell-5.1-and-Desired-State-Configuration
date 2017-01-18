@@ -4,7 +4,7 @@ configuration ShowFileResource2 {
 
  node StudentServer2 {
     File FileExample {
-    DestinationPath = "C:\BlueBuffaloPress\PowerShellDSC\Labs" #Required
+    DestinationPath = "C:\RonsNotes\PowerShellDSC\Labs" #Required
     Attributes = 'Readonly' #Optional
     Type = 'Directory'
     Ensure = 'Present'
@@ -12,7 +12,7 @@ configuration ShowFileResource2 {
     }}
  node StudentServer2 {
    File FileExample2 {
-   DestinationPath = "C:\BlueBuffaloPress\PowerShellDSC\Labs\TestofFile.txt"
+   DestinationPath = "C:\RonsNotes\PowerShellDSC\Labs\TestofFile.txt"
    Contents = ""
 
 }}}
